@@ -45,4 +45,6 @@ end
 
 extend Quiz::LCD
 
-puts get_lcd(2, "0123456789")
+if __FILE__ == $0
+  puts get_lcd(5, "0123456789") 
+end
